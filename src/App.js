@@ -8,7 +8,7 @@ import Buttons from "./components/Buttons";
 import Buttongroups from "./components/buttongroups";
 import Cards from "./components/cards";
 import Card2 from "./components/card2";
-
+import Carousel from "./components/carousel";
 
 function App() {
   return (
@@ -26,6 +26,8 @@ function App() {
       <Cards />
       <hr />
       <Card2 />
+      <hr />
+      <Carousel />
       <hr />
       <Header />
       <hr />
