@@ -6,6 +6,10 @@ import NavBar from "./components/NavBar";
 import Alert from "./components/alert";
 import Buttons from "./components/Buttons";
 import Buttongroups from "./components/buttongroups";
+import Cards from "./components/cards";
+import Card2 from "./components/card2";
+
+
 function App() {
   return (
     <>
@@ -19,7 +23,10 @@ function App() {
       <hr />
       <Buttongroups />
       <hr />
-
+      <Cards />
+      <hr />
+      <Card2 />
+      <hr />
       <Header />
       <hr />
 
