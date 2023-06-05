@@ -11,7 +11,7 @@ import Card2 from "./components/card2";
 import Carousel from "./components/carousel";
 import Dropdown from "./components/dropdown";
 import Model from "./components/model";
-
+import Pagination from "./components/pagination";
 function App() {
   return (
     <>
@@ -24,7 +24,8 @@ function App() {
       <hr />
       <Model />
       <hr />
-
+      <Pagination />
+      <hr />
       <Buttongroups />
       <hr />
       <Dropdown />
