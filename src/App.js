@@ -12,19 +12,32 @@ import Carousel from "./components/carousel";
 import Dropdown from "./components/dropdown";
 import Model from "./components/model";
 import Pagination from "./components/pagination";
+import Placeholder from "./components/placeholder";
+import Progressbar from "./components/progressbar";
+import Scrollpy from "./components/scrollpy";
+import Spinner from "./components/spinner";
+
 function App() {
   return (
     <>
       <NavBar />
-      <hr />
+    <hr />
+<Spinner/>
 
       <Alert />
+      
       <hr />
       <Buttons />
       <hr />
       <Model />
       <hr />
       <Pagination />
+      <hr />
+      <Placeholder />
+      <hr />
+      <Progressbar />
+      <hr />
+      <Scrollpy />
       <hr />
       <Buttongroups />
       <hr />
