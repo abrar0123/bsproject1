@@ -9,20 +9,27 @@ import Buttongroups from "./components/buttongroups";
 import Cards from "./components/cards";
 import Card2 from "./components/card2";
 import Carousel from "./components/carousel";
+import Dropdown from "./components/dropdown";
+import Model from "./components/model";
 
 function App() {
   return (
     <>
       <NavBar />
-
       <hr />
 
       <Alert />
       <hr />
       <Buttons />
       <hr />
+      <Model />
+      <hr />
+
       <Buttongroups />
       <hr />
+      <Dropdown />
+      <hr />
+
       <Cards />
       <hr />
       <Card2 />
