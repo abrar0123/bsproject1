@@ -1,0 +1,11 @@
+.topic {
+  /* background-color: rgb(228, 171, 171); */
+  padding: 15px 0px;
+}
+.topic h2 {
+  margin-left: 13px;
+  border-bottom: 3px solid red;
+  padding-bottom: 4px;
+  display: inline;
+
+}
